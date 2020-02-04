@@ -4,6 +4,7 @@ import com.javierlobo.codewars.main.kata.MatrixAddition;
 
 public class Main {
 	public static void main(String[] args) {
-
+		MatrixAddition ma = new MatrixAddition();
+		ma.printKata();
 	}
 }
