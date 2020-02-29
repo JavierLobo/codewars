@@ -2,6 +2,7 @@ package com.javierlobo.codewars.main;
 
 import com.javierlobo.codewars.main.kata.BalancedNumber;
 import com.javierlobo.codewars.main.kata.MatrixAddition;
+import com.javierlobo.codewars.main.kata.SpinWords;
 
 public class Main {
 	public static void main(String[] args) {
@@ -17,6 +18,9 @@ public class Main {
 		BalancedNumber bn8 = new BalancedNumber(295591);
 		BalancedNumber bn9 = new BalancedNumber(1230987);
 		BalancedNumber bn10 = new BalancedNumber(56239814);
+		
+		SpinWords sw1 = new SpinWords();
+		sw1.printKata();
 		
 	}
 }
