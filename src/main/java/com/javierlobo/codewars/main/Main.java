@@ -3,6 +3,7 @@ package com.javierlobo.codewars.main;
 import com.javierlobo.codewars.main.kata.BalancedNumber;
 import com.javierlobo.codewars.main.kata.MatrixAddition;
 import com.javierlobo.codewars.main.kata.SpinWords;
+import com.javierlobo.codewars.main.kata.Tribonacci;
 import com.javierlobo.codewars.main.kata.ValidateCreditCardNumber;
 
 public class Main {
@@ -27,5 +28,9 @@ public class Main {
 		// Validate Credit Card Number 
 		ValidateCreditCardNumber vccn1 = new ValidateCreditCardNumber("981");
 		vccn1.printKata();
+		
+		// Tribonnaci
+		Tribonacci tribonacci = new Tribonacci();
+		tribonacci.printKata();
 	}
 }
