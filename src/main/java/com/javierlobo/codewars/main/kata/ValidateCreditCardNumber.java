@@ -11,7 +11,7 @@ public class ValidateCreditCardNumber {
 	
 	public void printKata() {
 		System.out.print("CreditCardNumber: "+ this.creditCardNumber);
-		System.out.print(new String().concat(" [").concat((validadte(this.creditCardNumber))? "Valid]":"Not Valid]"));
+		System.out.println(new String().concat(" [").concat((validadte(this.creditCardNumber))? "Valid]":"Not Valid]"));
 	}
 	
 	public static boolean validadte(String number) {
