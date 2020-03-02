@@ -11,10 +11,10 @@ public class Tribonacci {
 	private double[] result;
 	
 	public Tribonacci() {
-		this.result = this.Tribonacci(this.firm, this.n);
+		this.result = this.tribonacci(this.firm, this.n);
 	}
 	
-	public double[] Tribonacci(double[] firm, int n) {
+	public double[] tribonacci(double[] firm, int n) {
 		if (n <= 0) { return new double[0]; }
 		
 		this.result = new double[n];		
@@ -28,7 +28,9 @@ public class Tribonacci {
 	}
 	
 	public void printKata() {
-		System.out.print("Tribonacci: " + Arrays.toString(this.result));
+		System.out.println("Tribonacci: n="+ this.n);
+		System.out.println("    Result   -> " + Arrays.toString(this.result));
+		System.out.println("    Expected -> " + Arrays.toString(this.firm));
 	}
 
 }
